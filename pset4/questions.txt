@@ -1,0 +1,19 @@
+0.  BMP support or 256 or more thousends, GIF support 256 colors, JPG support 16.7 million colors , PNG support 8-bit color but also extends it to 24-bits
+1.  GIF
+2.  Lossless means that the image is made smaller, but at no detriment to the quality. Lossy means the image is made (even) smaller, but at a detriment to the quality. If you saved an image in a Lossy format over and over, the image quality would get progressively worse and worse. 
+3.  JPEG
+4.  When the operating system erases a FAT file, two things occur. First, the system modifies the filename’s first character in the file’s directory entry to signal that the file has been deleted and that the directory entry can be recycled. Second, the system moves all of the file’s FAT clusters to the hard drive’s list of free clusters. The actual file data is never touched. Indeed, there are many programs available that can recover erased files, as we discuss later.
+5.  Disk sanitizers and declassifiers. With Unix we can sanitize a hard disk with the device /dev/hda using the command dd if=/dev/zero of=/dev/hda.
+6.  stdint.h contain fixed-width integer types defines in C99 standart.
+7.  it need because in program is defined new types - BYTE(typedef uint8_t  BYTE), DWORD(typedef uint32_t DWORD), LONG(typedef int32_t  LONG), WORD(typedef uint16_t WORD)
+8.  BYTE - 1 byte, DWORD - 4 bytes, LONG - 4 bytes, WORD - 2 bytes
+9.  The first 2 bytes of the BMP file format are the character "B" then the character "M" in ASCII encoding.
+10. bfSize should store the size of the whole BMP file — the size of the BMP image + the size of the headers. biSizeImage should store the size of the BMP image — the size of the RGBTRIPLEs + the total size of the padding.
+11. biHeight is negative, the image is top-down
+12. The biBitCount member of the BITMAPINFOHEADER structure determines the number ofbits that define each pixel and the maximum number of colors in the bitmap.
+13. fopen will return NULL if it cannot create the outfile to write to
+14. fread reads in from file fp an element of size bytes blocks number of times. And 1 - number of blocks of times.
+15. padding is 3 Bytes for biWidth 3 because the scanline must be a multiple of 4. 3 X 3 = 9  - is not multiple of 4 . And if we add 3 bytes - is multiple of 4.
+16. allows you to change the location of the file pointer.
+17. help to change the location of the pointer fp from its current location
+18. Rick Astley

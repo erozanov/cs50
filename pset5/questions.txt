@@ -1,0 +1,11 @@
+0.  pneumonoultramicroscopicsilicovolcanoconiosis is a pneumoconiosis caused by inhalation of very fine silicate or quartz dust.
+1.  returns resource usage measures for who, which can be one of the following: RUSAGE_SELF, RUSAGE_CHILDREN, RUSAGE_THREAD.
+2.  16
+3.  because getrusage function expect reference insteed of value.
+4.  We iterate in for loop by next character from file using function fgetc in loop. Inside of loop we check - if character is alphabetical  and apostrophes then we append character to word and incriment the index(after that we ignore alphabetical strings too long to be words). Also we check words with numbers and ingore it. If we have found the whole word we add \O to the end of word and check it spelling in dictionary. 
+5.  because we need reed by 1  character each iteration.
+6.  The const type ensures that the initial value of the parameter cannot be modified. This means that each word we are checking along with the dictionary cannot be changed
+7.  I used hash table structure. For it in dictionary header file i created structure and called it node. In dictioanary.c i created hashtable - array of nodes. On load function i fill it using hash function.
+8.  Not so slow, but slowly becouse i choosed not big size of hashtable.
+9.  I increased size of hashtable.
+10. no

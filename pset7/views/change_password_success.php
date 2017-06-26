@@ -1,0 +1,1 @@
+<div>Password changed successfully</div>

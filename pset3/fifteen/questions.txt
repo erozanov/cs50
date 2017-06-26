@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. 9x9
+1. array
+2. greet
+3. init, draw, move, won
